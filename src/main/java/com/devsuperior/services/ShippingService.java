@@ -1,6 +1,9 @@
 package com.devsuperior.services;
 
 import com.devsuperior.entities.Order;
+import org.springframework.stereotype.Service;
+
+@Service
 public class ShippingService {
     private Double freight;
     public double shipment(Order order) {
